@@ -86,8 +86,8 @@ Incremental implementation of a Next.js 14 (App Router) + TypeScript session eva
     - Test: unknown session ID → 404
     - _Requirements: 2.7, 3.2, 3.4, 4.1, 4.2_
 
-- [ ] 4. Implement auth middleware and typed fetch helpers
-  - [ ] 4.1 Implement auth middleware in `middleware.ts`
+- [x] 4. Implement auth middleware and typed fetch helpers
+  - [x] 4.1 Implement auth middleware in `middleware.ts`
     - Match paths `/dashboard/:path*`
     - Read `session-token` cookie; if absent or empty, redirect to `/login`; otherwise pass through
     - _Requirements: 5.1, 5.2_
@@ -98,20 +98,20 @@ Incremental implementation of a Next.js 14 (App Router) + TypeScript session eva
     - Use `fc.string()` as path suffix and `fc.boolean()` as cookie-present flag; assert that for every `/dashboard/*` path the middleware result is exactly redirect-to-login (no cookie) or pass-through (cookie present) — no third outcome
     - Tag: `// Feature: session-eval-dashboard, Property 6: auth gate invariant`
 
-  - [ ] 4.3 Implement typed fetch helpers in `lib/api.ts`
+  - [x] 4.3 Implement typed fetch helpers in `lib/api.ts`
     - `fetchSessions(params: FilterParams): Promise<Session[]>` — calls `GET /api/sessions` with serialised query string; throws on non-2xx
     - `fetchSession(id: string): Promise<Session>` — calls `GET /api/sessions/[id]`; throws on non-2xx (including 404)
     - _Requirements: 11.1, 11.2_
 
-- [ ] 5. Implement custom React hooks
-  - [ ] 5.1 Implement `useSessions` hook in `hooks/useSessions.ts`
+- [x] 5. Implement custom React hooks
+  - [x] 5.1 Implement `useSessions` hook in `hooks/useSessions.ts`
     - State: `{ data: Session[], isLoading: boolean, error: Error | null }`
     - `useEffect` with `JSON.stringify(params)` as dependency — fires on mount and when params change
     - Set `isLoading: true` at start; on success set `data` and clear error; on non-2xx or network error set `error`
     - Expose stable `refetch` callback via `useCallback` that increments an internal counter to re-trigger the effect
     - _Requirements: 7.1, 7.5, 7.7, 11.1, 11.3_
 
-  - [ ] 5.2 Implement `useSession` hook in `hooks/useSession.ts`
+  - [x] 5.2 Implement `useSession` hook in `hooks/useSession.ts`
     - Same pattern as `useSessions` but hits `/api/sessions/[id]`; state is `{ data: Session | null, isLoading: boolean, error: Error | null }`
     - _Requirements: 9.1, 9.7, 9.8, 11.2_
 
