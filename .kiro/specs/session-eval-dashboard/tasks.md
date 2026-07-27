@@ -209,14 +209,14 @@ Incremental implementation of a Next.js 14 (App Router) + TypeScript session eva
   - Verify no horizontal overflow at any viewport width (use `overflow-x-hidden` on the root if needed)
   - _Requirements: 10.1, 10.2, 10.3, 10.4_
 
-- [ ] 10. Write NOTES.md
+- [x] 10. Write NOTES.md
   - Create `NOTES.md` at project root (300–500 words)
   - Justify fetch-in-hook vs SWR/TanStack Query for this specific project size and timebox
   - List everything cut or simplified and tie each cut to the timebox
   - Describe what would change at 10,000 sessions: server-side filtering/pagination, virtualisation, `/api/students` endpoint, real database, when SWR/React Query earns its place
   - _Requirements: 11.4, 12.1, 12.2, 12.3, 12.4_
 
-- [ ] 11. Final checkpoint — Ensure all tests pass
+- [x] 11. Final checkpoint — Ensure all tests pass
   - Run `npx tsc --noEmit` to verify no TypeScript errors
   - Run the full test suite to confirm all property and unit tests pass
   - Ensure all tests pass, ask the user if questions arise.
