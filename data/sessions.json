@@ -1,0 +1,442 @@
+[
+  {
+    "id": "sess_001",
+    "student": "Aisha Patel",
+    "date": "2024-03-01",
+    "durationMinutes": 45,
+    "metrics": [
+      { "t": 0,    "engagement": 72, "clarity": 68, "pacing": 65 },
+      { "t": 180,  "engagement": 75, "clarity": 70, "pacing": 67 },
+      { "t": 360,  "engagement": 78, "clarity": 74, "pacing": 70 },
+      { "t": 540,  "engagement": 80, "clarity": 76, "pacing": 72 },
+      { "t": 720,  "engagement": 83, "clarity": 79, "pacing": 75 },
+      { "t": 900,  "engagement": 85, "clarity": 82, "pacing": 78 },
+      { "t": 1080, "engagement": 82, "clarity": 80, "pacing": 76 },
+      { "t": 1260, "engagement": 79, "clarity": 77, "pacing": 73 },
+      { "t": 1440, "engagement": 76, "clarity": 74, "pacing": 70 }
+    ]
+  },
+  {
+    "id": "sess_002",
+    "student": "Ben Carter",
+    "date": "2024-03-04",
+    "durationMinutes": 60,
+    "metrics": [
+      { "t": 0,    "engagement": 55, "clarity": 60, "pacing": 58 },
+      { "t": 240,  "engagement": 58, "clarity": 63, "pacing": 61 },
+      { "t": 480,  "engagement": 62, "clarity": 67, "pacing": 64 },
+      { "t": 720,  "engagement": 65, "clarity": 70, "pacing": 67 },
+      { "t": 960,  "engagement": 68, "clarity": 72, "pacing": 70 },
+      { "t": 1200, "engagement": 71, "clarity": 75, "pacing": 72 },
+      { "t": 1440, "engagement": 74, "clarity": 77, "pacing": 74 },
+      { "t": 1680, "engagement": 70, "clarity": 74, "pacing": 71 },
+      { "t": 1920, "engagement": 66, "clarity": 70, "pacing": 68 },
+      { "t": 2160, "engagement": 63, "clarity": 67, "pacing": 65 }
+    ]
+  },
+  {
+    "id": "sess_003",
+    "student": "Chiara Rossi",
+    "date": "2024-03-06",
+    "durationMinutes": 50,
+    "metrics": [
+      { "t": 0,    "engagement": 88, "clarity": 85, "pacing": 82 },
+      { "t": 200,  "engagement": 90, "clarity": 87, "pacing": 84 },
+      { "t": 400,  "engagement": 92, "clarity": 89, "pacing": 86 },
+      { "t": 600,  "engagement": 91, "clarity": 88, "pacing": 85 },
+      { "t": 800,  "engagement": 89, "clarity": 86, "pacing": 83 },
+      { "t": 1000, "engagement": 87, "clarity": 84, "pacing": 81 },
+      { "t": 1200, "engagement": 85, "clarity": 82, "pacing": 79 },
+      { "t": 1400, "engagement": 83, "clarity": 80, "pacing": 77 },
+      { "t": 1600, "engagement": 86, "clarity": 83, "pacing": 80 },
+      { "t": 1800, "engagement": 88, "clarity": 85, "pacing": 82 }
+    ]
+  },
+  {
+    "id": "sess_004",
+    "student": "David Kim",
+    "date": "2024-03-08",
+    "durationMinutes": 40,
+    "metrics": [
+      { "t": 0,    "engagement": 45, "clarity": 50, "pacing": 48 },
+      { "t": 160,  "engagement": 50, "clarity": 54, "pacing": 52 },
+      { "t": 320,  "engagement": 55, "clarity": 58, "pacing": 56 },
+      { "t": 480,  "engagement": 60, "clarity": 63, "pacing": 61 },
+      { "t": 640,  "engagement": 65, "clarity": 67, "pacing": 65 },
+      { "t": 800,  "engagement": 70, "clarity": 72, "pacing": 69 },
+      { "t": 960,  "engagement": 68, "clarity": 70, "pacing": 67 },
+      { "t": 1120, "engagement": 63, "clarity": 66, "pacing": 63 }
+    ]
+  },
+  {
+    "id": "sess_005",
+    "student": "Elena Soto",
+    "date": "2024-03-11",
+    "durationMinutes": 55,
+    "metrics": [
+      { "t": 0,    "engagement": 77, "clarity": 73, "pacing": 71 },
+      { "t": 220,  "engagement": 79, "clarity": 75, "pacing": 73 },
+      { "t": 440,  "engagement": 82, "clarity": 78, "pacing": 76 },
+      { "t": 660,  "engagement": 84, "clarity": 80, "pacing": 78 },
+      { "t": 880,  "engagement": 86, "clarity": 83, "pacing": 81 },
+      { "t": 1100, "engagement": 88, "clarity": 85, "pacing": 83 },
+      { "t": 1320, "engagement": 85, "clarity": 82, "pacing": 80 },
+      { "t": 1540, "engagement": 82, "clarity": 79, "pacing": 77 },
+      { "t": 1760, "engagement": 79, "clarity": 76, "pacing": 74 },
+      { "t": 1980, "engagement": 81, "clarity": 78, "pacing": 76 },
+      { "t": 2200, "engagement": 83, "clarity": 80, "pacing": 78 }
+    ]
+  },
+  {
+    "id": "sess_006",
+    "student": "Faisal Hassan",
+    "date": "2024-03-13",
+    "durationMinutes": 45,
+    "metrics": [
+      { "t": 0,    "engagement": 60, "clarity": 55, "pacing": 57 },
+      { "t": 180,  "engagement": 63, "clarity": 58, "pacing": 60 },
+      { "t": 360,  "engagement": 67, "clarity": 62, "pacing": 64 },
+      { "t": 540,  "engagement": 70, "clarity": 65, "pacing": 67 },
+      { "t": 720,  "engagement": 73, "clarity": 68, "pacing": 70 },
+      { "t": 900,  "engagement": 76, "clarity": 71, "pacing": 73 },
+      { "t": 1080, "engagement": 74, "clarity": 69, "pacing": 71 },
+      { "t": 1260, "engagement": 71, "clarity": 66, "pacing": 68 }
+    ]
+  },
+  {
+    "id": "sess_007",
+    "student": "Aisha Patel",
+    "date": "2024-03-15",
+    "durationMinutes": 60,
+    "metrics": [
+      { "t": 0,    "engagement": 80, "clarity": 76, "pacing": 74 },
+      { "t": 240,  "engagement": 82, "clarity": 78, "pacing": 76 },
+      { "t": 480,  "engagement": 85, "clarity": 81, "pacing": 79 },
+      { "t": 720,  "engagement": 87, "clarity": 83, "pacing": 81 },
+      { "t": 960,  "engagement": 89, "clarity": 86, "pacing": 84 },
+      { "t": 1200, "engagement": 91, "clarity": 88, "pacing": 86 },
+      { "t": 1440, "engagement": 88, "clarity": 85, "pacing": 83 },
+      { "t": 1680, "engagement": 85, "clarity": 82, "pacing": 80 },
+      { "t": 1920, "engagement": 82, "clarity": 79, "pacing": 77 },
+      { "t": 2160, "engagement": 84, "clarity": 81, "pacing": 79 },
+      { "t": 2400, "engagement": 86, "clarity": 83, "pacing": 81 },
+      { "t": 2640, "engagement": 88, "clarity": 85, "pacing": 83 }
+    ]
+  },
+  {
+    "id": "sess_008",
+    "student": "Ben Carter",
+    "date": "2024-03-18",
+    "durationMinutes": 35,
+    "metrics": [
+      { "t": 0,    "engagement": 40, "clarity": 44, "pacing": 42 },
+      { "t": 140,  "engagement": 45, "clarity": 49, "pacing": 47 },
+      { "t": 280,  "engagement": 50, "clarity": 54, "pacing": 52 },
+      { "t": 420,  "engagement": 55, "clarity": 59, "pacing": 57 },
+      { "t": 560,  "engagement": 60, "clarity": 63, "pacing": 61 },
+      { "t": 700,  "engagement": 58, "clarity": 61, "pacing": 59 },
+      { "t": 840,  "engagement": 55, "clarity": 58, "pacing": 56 },
+      { "t": 980,  "engagement": 52, "clarity": 55, "pacing": 53 }
+    ]
+  },
+  {
+    "id": "sess_009",
+    "student": "Chiara Rossi",
+    "date": "2024-03-20",
+    "durationMinutes": 50,
+    "metrics": [
+      { "t": 0,    "engagement": 93, "clarity": 90, "pacing": 88 },
+      { "t": 200,  "engagement": 94, "clarity": 91, "pacing": 89 },
+      { "t": 400,  "engagement": 95, "clarity": 92, "pacing": 90 },
+      { "t": 600,  "engagement": 93, "clarity": 90, "pacing": 88 },
+      { "t": 800,  "engagement": 91, "clarity": 88, "pacing": 86 },
+      { "t": 1000, "engagement": 89, "clarity": 86, "pacing": 84 },
+      { "t": 1200, "engagement": 87, "clarity": 84, "pacing": 82 },
+      { "t": 1400, "engagement": 89, "clarity": 86, "pacing": 84 },
+      { "t": 1600, "engagement": 91, "clarity": 88, "pacing": 86 }
+    ]
+  },
+  {
+    "id": "sess_010",
+    "student": "David Kim",
+    "date": "2024-03-22",
+    "durationMinutes": 45,
+    "metrics": [
+      { "t": 0,    "engagement": 62, "clarity": 65, "pacing": 63 },
+      { "t": 180,  "engagement": 65, "clarity": 68, "pacing": 66 },
+      { "t": 360,  "engagement": 68, "clarity": 71, "pacing": 69 },
+      { "t": 540,  "engagement": 71, "clarity": 74, "pacing": 72 },
+      { "t": 720,  "engagement": 74, "clarity": 77, "pacing": 75 },
+      { "t": 900,  "engagement": 77, "clarity": 80, "pacing": 78 },
+      { "t": 1080, "engagement": 75, "clarity": 78, "pacing": 76 },
+      { "t": 1260, "engagement": 72, "clarity": 75, "pacing": 73 },
+      { "t": 1440, "engagement": 69, "clarity": 72, "pacing": 70 },
+      { "t": 1620, "engagement": 71, "clarity": 74, "pacing": 72 }
+    ]
+  },
+  {
+    "id": "sess_011",
+    "student": "Elena Soto",
+    "date": "2024-03-25",
+    "durationMinutes": 60,
+    "metrics": [
+      { "t": 0,    "engagement": 84, "clarity": 80, "pacing": 78 },
+      { "t": 240,  "engagement": 86, "clarity": 82, "pacing": 80 },
+      { "t": 480,  "engagement": 88, "clarity": 85, "pacing": 83 },
+      { "t": 720,  "engagement": 90, "clarity": 87, "pacing": 85 },
+      { "t": 960,  "engagement": 92, "clarity": 89, "pacing": 87 },
+      { "t": 1200, "engagement": 90, "clarity": 87, "pacing": 85 },
+      { "t": 1440, "engagement": 88, "clarity": 85, "pacing": 83 },
+      { "t": 1680, "engagement": 85, "clarity": 82, "pacing": 80 },
+      { "t": 1920, "engagement": 87, "clarity": 84, "pacing": 82 },
+      { "t": 2160, "engagement": 89, "clarity": 86, "pacing": 84 },
+      { "t": 2400, "engagement": 87, "clarity": 84, "pacing": 82 },
+      { "t": 2640, "engagement": 85, "clarity": 82, "pacing": 80 },
+      { "t": 2880, "engagement": 87, "clarity": 84, "pacing": 82 }
+    ]
+  },
+  {
+    "id": "sess_012",
+    "student": "Faisal Hassan",
+    "date": "2024-03-27",
+    "durationMinutes": 40,
+    "metrics": [
+      { "t": 0,    "engagement": 66, "clarity": 62, "pacing": 64 },
+      { "t": 160,  "engagement": 69, "clarity": 65, "pacing": 67 },
+      { "t": 320,  "engagement": 72, "clarity": 68, "pacing": 70 },
+      { "t": 480,  "engagement": 75, "clarity": 71, "pacing": 73 },
+      { "t": 640,  "engagement": 78, "clarity": 74, "pacing": 76 },
+      { "t": 800,  "engagement": 76, "clarity": 72, "pacing": 74 },
+      { "t": 960,  "engagement": 73, "clarity": 69, "pacing": 71 },
+      { "t": 1120, "engagement": 70, "clarity": 66, "pacing": 68 }
+    ]
+  },
+  {
+    "id": "sess_013",
+    "student": "Aisha Patel",
+    "date": "2024-03-29",
+    "durationMinutes": 55,
+    "metrics": [
+      { "t": 0,    "engagement": 85, "clarity": 81, "pacing": 79 },
+      { "t": 220,  "engagement": 87, "clarity": 83, "pacing": 81 },
+      { "t": 440,  "engagement": 89, "clarity": 86, "pacing": 84 },
+      { "t": 660,  "engagement": 91, "clarity": 88, "pacing": 86 },
+      { "t": 880,  "engagement": 93, "clarity": 90, "pacing": 88 },
+      { "t": 1100, "engagement": 91, "clarity": 88, "pacing": 86 },
+      { "t": 1320, "engagement": 88, "clarity": 85, "pacing": 83 },
+      { "t": 1540, "engagement": 86, "clarity": 83, "pacing": 81 },
+      { "t": 1760, "engagement": 88, "clarity": 85, "pacing": 83 },
+      { "t": 1980, "engagement": 90, "clarity": 87, "pacing": 85 }
+    ]
+  },
+  {
+    "id": "sess_014",
+    "student": "Ben Carter",
+    "date": "2024-04-01",
+    "durationMinutes": 45,
+    "metrics": [
+      { "t": 0,    "engagement": 58, "clarity": 62, "pacing": 60 },
+      { "t": 180,  "engagement": 62, "clarity": 66, "pacing": 64 },
+      { "t": 360,  "engagement": 66, "clarity": 70, "pacing": 68 },
+      { "t": 540,  "engagement": 70, "clarity": 73, "pacing": 71 },
+      { "t": 720,  "engagement": 73, "clarity": 76, "pacing": 74 },
+      { "t": 900,  "engagement": 76, "clarity": 79, "pacing": 77 },
+      { "t": 1080, "engagement": 73, "clarity": 76, "pacing": 74 },
+      { "t": 1260, "engagement": 70, "clarity": 73, "pacing": 71 },
+      { "t": 1440, "engagement": 67, "clarity": 70, "pacing": 68 }
+    ]
+  },
+  {
+    "id": "sess_015",
+    "student": "Chiara Rossi",
+    "date": "2024-04-03",
+    "durationMinutes": 50,
+    "metrics": [
+      { "t": 0,    "engagement": 91, "clarity": 88, "pacing": 86 },
+      { "t": 200,  "engagement": 93, "clarity": 90, "pacing": 88 },
+      { "t": 400,  "engagement": 95, "clarity": 92, "pacing": 90 },
+      { "t": 600,  "engagement": 97, "clarity": 94, "pacing": 92 },
+      { "t": 800,  "engagement": 95, "clarity": 92, "pacing": 90 },
+      { "t": 1000, "engagement": 93, "clarity": 90, "pacing": 88 },
+      { "t": 1200, "engagement": 91, "clarity": 88, "pacing": 86 },
+      { "t": 1400, "engagement": 93, "clarity": 90, "pacing": 88 },
+      { "t": 1600, "engagement": 95, "clarity": 92, "pacing": 90 },
+      { "t": 1800, "engagement": 93, "clarity": 90, "pacing": 88 },
+      { "t": 2000, "engagement": 91, "clarity": 88, "pacing": 86 }
+    ]
+  },
+  {
+    "id": "sess_016",
+    "student": "David Kim",
+    "date": "2024-04-05",
+    "durationMinutes": 60,
+    "metrics": [
+      { "t": 0,    "engagement": 70, "clarity": 73, "pacing": 71 },
+      { "t": 240,  "engagement": 73, "clarity": 76, "pacing": 74 },
+      { "t": 480,  "engagement": 76, "clarity": 79, "pacing": 77 },
+      { "t": 720,  "engagement": 79, "clarity": 82, "pacing": 80 },
+      { "t": 960,  "engagement": 82, "clarity": 84, "pacing": 82 },
+      { "t": 1200, "engagement": 80, "clarity": 82, "pacing": 80 },
+      { "t": 1440, "engagement": 77, "clarity": 79, "pacing": 77 },
+      { "t": 1680, "engagement": 74, "clarity": 76, "pacing": 74 },
+      { "t": 1920, "engagement": 77, "clarity": 79, "pacing": 77 },
+      { "t": 2160, "engagement": 80, "clarity": 82, "pacing": 80 },
+      { "t": 2400, "engagement": 78, "clarity": 80, "pacing": 78 },
+      { "t": 2640, "engagement": 75, "clarity": 77, "pacing": 75 }
+    ]
+  },
+  {
+    "id": "sess_017",
+    "student": "Elena Soto",
+    "date": "2024-04-08",
+    "durationMinutes": 45,
+    "metrics": [
+      { "t": 0,    "engagement": 88, "clarity": 85, "pacing": 83 },
+      { "t": 180,  "engagement": 90, "clarity": 87, "pacing": 85 },
+      { "t": 360,  "engagement": 92, "clarity": 89, "pacing": 87 },
+      { "t": 540,  "engagement": 90, "clarity": 87, "pacing": 85 },
+      { "t": 720,  "engagement": 88, "clarity": 85, "pacing": 83 },
+      { "t": 900,  "engagement": 86, "clarity": 83, "pacing": 81 },
+      { "t": 1080, "engagement": 88, "clarity": 85, "pacing": 83 },
+      { "t": 1260, "engagement": 90, "clarity": 87, "pacing": 85 }
+    ]
+  },
+  {
+    "id": "sess_018",
+    "student": "Faisal Hassan",
+    "date": "2024-04-10",
+    "durationMinutes": 50,
+    "metrics": [
+      { "t": 0,    "engagement": 72, "clarity": 68, "pacing": 70 },
+      { "t": 200,  "engagement": 75, "clarity": 71, "pacing": 73 },
+      { "t": 400,  "engagement": 78, "clarity": 74, "pacing": 76 },
+      { "t": 600,  "engagement": 81, "clarity": 77, "pacing": 79 },
+      { "t": 800,  "engagement": 84, "clarity": 80, "pacing": 82 },
+      { "t": 1000, "engagement": 82, "clarity": 78, "pacing": 80 },
+      { "t": 1200, "engagement": 79, "clarity": 75, "pacing": 77 },
+      { "t": 1400, "engagement": 76, "clarity": 72, "pacing": 74 },
+      { "t": 1600, "engagement": 78, "clarity": 74, "pacing": 76 },
+      { "t": 1800, "engagement": 80, "clarity": 76, "pacing": 78 }
+    ]
+  },
+  {
+    "id": "sess_019",
+    "student": "Aisha Patel",
+    "date": "2024-04-12",
+    "durationMinutes": 40,
+    "metrics": [
+      { "t": 0,    "engagement": 83, "clarity": 79, "pacing": 77 },
+      { "t": 160,  "engagement": 85, "clarity": 81, "pacing": 79 },
+      { "t": 320,  "engagement": 87, "clarity": 84, "pacing": 82 },
+      { "t": 480,  "engagement": 89, "clarity": 86, "pacing": 84 },
+      { "t": 640,  "engagement": 91, "clarity": 88, "pacing": 86 },
+      { "t": 800,  "engagement": 89, "clarity": 86, "pacing": 84 },
+      { "t": 960,  "engagement": 87, "clarity": 84, "pacing": 82 },
+      { "t": 1120, "engagement": 85, "clarity": 82, "pacing": 80 },
+      { "t": 1280, "engagement": 87, "clarity": 84, "pacing": 82 }
+    ]
+  },
+  {
+    "id": "sess_020",
+    "student": "Ben Carter",
+    "date": "2024-04-15",
+    "durationMinutes": 55,
+    "metrics": [
+      { "t": 0,    "engagement": 63, "clarity": 67, "pacing": 65 },
+      { "t": 220,  "engagement": 67, "clarity": 71, "pacing": 69 },
+      { "t": 440,  "engagement": 71, "clarity": 74, "pacing": 72 },
+      { "t": 660,  "engagement": 74, "clarity": 77, "pacing": 75 },
+      { "t": 880,  "engagement": 77, "clarity": 80, "pacing": 78 },
+      { "t": 1100, "engagement": 80, "clarity": 83, "pacing": 81 },
+      { "t": 1320, "engagement": 77, "clarity": 80, "pacing": 78 },
+      { "t": 1540, "engagement": 74, "clarity": 77, "pacing": 75 },
+      { "t": 1760, "engagement": 71, "clarity": 74, "pacing": 72 },
+      { "t": 1980, "engagement": 74, "clarity": 77, "pacing": 75 },
+      { "t": 2200, "engagement": 77, "clarity": 80, "pacing": 78 }
+    ]
+  },
+  {
+    "id": "sess_021",
+    "student": "Chiara Rossi",
+    "date": "2024-04-17",
+    "durationMinutes": 45,
+    "metrics": [
+      { "t": 0,    "engagement": 94, "clarity": 91, "pacing": 89 },
+      { "t": 180,  "engagement": 96, "clarity": 93, "pacing": 91 },
+      { "t": 360,  "engagement": 98, "clarity": 95, "pacing": 93 },
+      { "t": 540,  "engagement": 96, "clarity": 93, "pacing": 91 },
+      { "t": 720,  "engagement": 94, "clarity": 91, "pacing": 89 },
+      { "t": 900,  "engagement": 92, "clarity": 89, "pacing": 87 },
+      { "t": 1080, "engagement": 94, "clarity": 91, "pacing": 89 },
+      { "t": 1260, "engagement": 96, "clarity": 93, "pacing": 91 },
+      { "t": 1440, "engagement": 94, "clarity": 91, "pacing": 89 }
+    ]
+  },
+  {
+    "id": "sess_022",
+    "student": "David Kim",
+    "date": "2024-04-19",
+    "durationMinutes": 60,
+    "metrics": [
+      { "t": 0,    "engagement": 75, "clarity": 78, "pacing": 76 },
+      { "t": 240,  "engagement": 78, "clarity": 81, "pacing": 79 },
+      { "t": 480,  "engagement": 81, "clarity": 84, "pacing": 82 },
+      { "t": 720,  "engagement": 84, "clarity": 86, "pacing": 84 },
+      { "t": 960,  "engagement": 86, "clarity": 88, "pacing": 86 },
+      { "t": 1200, "engagement": 84, "clarity": 86, "pacing": 84 },
+      { "t": 1440, "engagement": 81, "clarity": 83, "pacing": 81 },
+      { "t": 1680, "engagement": 78, "clarity": 80, "pacing": 78 },
+      { "t": 1920, "engagement": 81, "clarity": 83, "pacing": 81 },
+      { "t": 2160, "engagement": 84, "clarity": 86, "pacing": 84 },
+      { "t": 2400, "engagement": 82, "clarity": 84, "pacing": 82 },
+      { "t": 2640, "engagement": 80, "clarity": 82, "pacing": 80 },
+      { "t": 2880, "engagement": 82, "clarity": 84, "pacing": 82 },
+      { "t": 3120, "engagement": 84, "clarity": 86, "pacing": 84 },
+      { "t": 3360, "engagement": 82, "clarity": 84, "pacing": 82 }
+    ]
+  },
+  {
+    "id": "sess_023",
+    "student": "Elena Soto",
+    "date": "2024-04-22",
+    "durationMinutes": 50,
+    "metrics": [
+      { "t": 0,    "engagement": 90, "clarity": 87, "pacing": 85 },
+      { "t": 200,  "engagement": 92, "clarity": 89, "pacing": 87 },
+      { "t": 400,  "engagement": 94, "clarity": 91, "pacing": 89 },
+      { "t": 600,  "engagement": 92, "clarity": 89, "pacing": 87 },
+      { "t": 800,  "engagement": 90, "clarity": 87, "pacing": 85 },
+      { "t": 1000, "engagement": 88, "clarity": 85, "pacing": 83 },
+      { "t": 1200, "engagement": 90, "clarity": 87, "pacing": 85 },
+      { "t": 1400, "engagement": 92, "clarity": 89, "pacing": 87 }
+    ]
+  },
+  {
+    "id": "sess_024",
+    "student": "Faisal Hassan",
+    "date": "2024-04-25",
+    "durationMinutes": 45,
+    "metrics": [
+      { "t": 0,    "engagement": 77, "clarity": 73, "pacing": 75 },
+      { "t": 180,  "engagement": 80, "clarity": 76, "pacing": 78 },
+      { "t": 360,  "engagement": 83, "clarity": 79, "pacing": 81 },
+      { "t": 540,  "engagement": 86, "clarity": 82, "pacing": 84 },
+      { "t": 720,  "engagement": 84, "clarity": 80, "pacing": 82 },
+      { "t": 900,  "engagement": 81, "clarity": 77, "pacing": 79 },
+      { "t": 1080, "engagement": 78, "clarity": 74, "pacing": 76 },
+      { "t": 1260, "engagement": 80, "clarity": 76, "pacing": 78 },
+      { "t": 1440, "engagement": 82, "clarity": 78, "pacing": 80 },
+      { "t": 1620, "engagement": 84, "clarity": 80, "pacing": 82 }
+    ]
+  },
+  {
+    "id": "sess_edge",
+    "student": "Ben Carter",
+    "date": "2024-04-28",
+    "durationMinutes": 10,
+    "metrics": [
+      { "t": 0,   "engagement": 50, "clarity": 55, "pacing": 52 },
+      { "t": 300, "engagement": 58, "clarity": 62, "pacing": 59 }
+    ]
+  }
+]
