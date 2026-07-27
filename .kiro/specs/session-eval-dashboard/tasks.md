@@ -115,18 +115,18 @@ Incremental implementation of a Next.js 14 (App Router) + TypeScript session eva
     - Same pattern as `useSessions` but hits `/api/sessions/[id]`; state is `{ data: Session | null, isLoading: boolean, error: Error | null }`
     - _Requirements: 9.1, 9.7, 9.8, 11.2_
 
-- [ ] 6. Build shared UI components
-  - [ ] 6.1 Implement `ErrorState` component in `components/ErrorState.tsx`
+- [x] 6. Build shared UI components
+  - [x] 6.1 Implement `ErrorState` component in `components/ErrorState.tsx`
     - Props: `{ message: string; onRetry: () => void }`
     - Render visible error message and a retry button that calls `onRetry`
     - _Requirements: 7.7, 9.8_
 
-  - [ ] 6.2 Implement `LoadingSkeletons` component in `components/LoadingSkeletons.tsx`
+  - [x] 6.2 Implement `LoadingSkeletons` component in `components/LoadingSkeletons.tsx`
     - Export `SessionListSkeleton` and `SessionDetailSkeleton` variants
     - Skeleton uses animated Tailwind `animate-pulse` blocks
     - _Requirements: 7.5, 9.7_
 
-  - [ ] 6.3 Implement `SessionCard` component in `components/SessionCard.tsx`
+  - [x] 6.3 Implement `SessionCard` component in `components/SessionCard.tsx`
     - Props: `{ session: Session }`
     - Display student name, human-readable date (via `formatDate`), duration in minutes, and average score (via `calcAverageScore`)
     - Entire card is a clickable link to `/dashboard/[session.id]`
@@ -139,7 +139,7 @@ Incremental implementation of a Next.js 14 (App Router) + TypeScript session eva
     - Render `<SessionCard session={session} />` via `@testing-library/react` for arbitrary `session` values; assert rendered output contains the student name, a human-readable date string, and the durationMinutes value
     - Tag: `// Feature: session-eval-dashboard, Property 7: session summary display completeness`
 
-  - [ ] 6.5 Implement `MetricChart` component in `components/MetricChart.tsx`
+  - [x] 6.5 Implement `MetricChart` component in `components/MetricChart.tsx`
     - Props: `{ metrics: MetricPoint[] }`
     - Render `<ResponsiveContainer width="100%" height={300}>` wrapping `<LineChart>`
     - Three `<Line>` elements: `engagement` (blue), `clarity` (green), `pacing` (orange)
@@ -153,7 +153,7 @@ Incremental implementation of a Next.js 14 (App Router) + TypeScript session eva
     - Render `<MetricChart metrics={metrics} />` via `@testing-library/react` for arbitrary `fc.array(metricPointArb, { minLength: 2 })` inputs; assert no JavaScript error is thrown and output contains exactly three line series
     - Tag: `// Feature: session-eval-dashboard, Property 5: MetricChart renders for any valid metrics array`
 
-  - [ ] 6.7 Implement `SessionFilters` component in `components/SessionFilters.tsx`
+  - [x] 6.7 Implement `SessionFilters` component in `components/SessionFilters.tsx`
     - Props: `{ students: string[]; currentFilters: FilterParams; onChange: (filters: FilterParams) => void }`
     - Student `<select>` populated with distinct names; two date inputs (from, to)
     - Calls `onChange` on every input change
