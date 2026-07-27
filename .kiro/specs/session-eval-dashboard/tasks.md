@@ -57,7 +57,7 @@ Incremental implementation of a Next.js 14 (App Router) + TypeScript session eva
     - Use `fc.array(metricPointArb, { minLength: 1 })` inside a session record; assert `calcAverageScore(session)` equals the arithmetic mean of all engagement + clarity + pacing values
     - Tag: `// Feature: session-eval-dashboard, Property 4: average score calculation correctness`
 
-- [ ] 3. Implement API route handlers
+- [x] 3. Implement API route handlers
   - [x] 3.1 Implement GET `/api/sessions` route handler in `app/api/sessions/route.ts`
     - Read and parse `data/sessions.json`
     - Apply `student`, `from`, `to` query params using `applyFilters`
@@ -73,7 +73,7 @@ Incremental implementation of a Next.js 14 (App Router) + TypeScript session eva
     - Sleep 400–800 ms random delay; return HTTP 500 when `simulateError=1`
     - _Requirements: 3.1, 3.2, 3.3, 3.4_
 
-  - [ ] 3.3 Implement POST `/api/auth/login` and POST `/api/auth/logout` route handlers
+  - [x] 3.3 Implement POST `/api/auth/login` and POST `/api/auth/logout` route handlers
     - `/api/auth/login/route.ts`: accept `{ username, password }`; if credentials are `admin`/`admin`, set httpOnly `session-token` cookie (value `"mock-token-abc123"`, `path: "/"`, `sameSite: "lax"`, `maxAge: 86400`) and return `{ ok: true }`; otherwise return HTTP 401 `{ error: "Invalid credentials" }`
     - `/api/auth/logout/route.ts`: clear the `session-token` cookie and return `{ ok: true }` with HTTP 200
     - _Requirements: 4.1, 4.2, 4.3, 4.4_
