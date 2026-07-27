@@ -14,14 +14,14 @@ Incremental implementation of a Next.js 14 (App Router) + TypeScript session eva
   - Create the directory structure: `app/`, `app/api/`, `components/`, `hooks/`, `lib/`, `data/`, `__tests__/`
   - _Requirements: 1.6, 11.1, 11.2_
 
-- [ ] 2. Create mock dataset and utility functions
-  - [ ] 2.1 Create `data/sessions.json`
+- [x] 2. Create mock dataset and utility functions
+  - [x] 2.1 Create `data/sessions.json`
     - Generate 18–25 `Session` objects with 5–6 distinct student names, dates spanning 2024-03-01 to 2024-04-30, each session with 8–15 `MetricPoint` entries at regular offsets
     - Include exactly one edge-case session (`id: "sess_edge"`) with exactly 2 MetricPoints
     - All `engagement`, `clarity`, `pacing` values must be integers in 0–100
     - _Requirements: 1.1, 1.2, 1.3, 1.4, 1.5, 1.6_
 
-  - [ ] 2.2 Implement utility functions in `lib/utils.ts`
+  - [x] 2.2 Implement utility functions in `lib/utils.ts`
     - Implement `calcAverageScore(session: Session): number` — arithmetic mean of all engagement, clarity, and pacing values across every MetricPoint
     - Implement `applyFilters(sessions: Session[], params: FilterParams): Session[]` — AND-logic filtering by student (case-insensitive), from-date, and to-date
     - Implement `formatDate(dateStr: string): string` — converts ISO date string to a human-readable format
@@ -58,7 +58,7 @@ Incremental implementation of a Next.js 14 (App Router) + TypeScript session eva
     - Tag: `// Feature: session-eval-dashboard, Property 4: average score calculation correctness`
 
 - [ ] 3. Implement API route handlers
-  - [ ] 3.1 Implement GET `/api/sessions` route handler in `app/api/sessions/route.ts`
+  - [x] 3.1 Implement GET `/api/sessions` route handler in `app/api/sessions/route.ts`
     - Read and parse `data/sessions.json`
     - Apply `student`, `from`, `to` query params using `applyFilters`
     - Sleep 400–800 ms random delay before responding
@@ -67,7 +67,7 @@ Incremental implementation of a Next.js 14 (App Router) + TypeScript session eva
     - Wrap all logic in try/catch; never throw unhandled exceptions
     - _Requirements: 2.1, 2.2, 2.3, 2.4, 2.5, 2.6, 2.7, 2.8_
 
-  - [ ] 3.2 Implement GET `/api/sessions/[id]` route handler in `app/api/sessions/[id]/route.ts`
+  - [x] 3.2 Implement GET `/api/sessions/[id]` route handler in `app/api/sessions/[id]/route.ts`
     - Return HTTP 200 with full session object (including `metrics`) for a valid ID
     - Return HTTP 404 `{ error: "Session not found" }` for unknown IDs
     - Sleep 400–800 ms random delay; return HTTP 500 when `simulateError=1`
