@@ -67,7 +67,7 @@ function SessionDetailContent({ sessionId }: SessionDetailContentProps) {
       </div>
 
       {/* Page header */}
-      <div className="mb-6 rounded-lg border border-gray-200 bg-white p-6 shadow-sm">
+      <div className="mb-6 rounded-lg border border-gray-200 bg-white p-4 shadow-sm sm:p-6">
         <h1 className="text-xl font-semibold text-gray-900">{data.student}</h1>
         <div className="mt-2 flex flex-wrap gap-x-6 gap-y-1 text-sm text-gray-600">
           <span>{formatDate(data.date)}</span>
@@ -76,7 +76,7 @@ function SessionDetailContent({ sessionId }: SessionDetailContentProps) {
       </div>
 
       {/* Metric chart */}
-      <div className="rounded-lg border border-gray-200 bg-white p-6 shadow-sm">
+      <div className="overflow-hidden rounded-lg border border-gray-200 bg-white p-4 shadow-sm sm:p-6">
         <h2 className="mb-4 text-base font-medium text-gray-800">Session Metrics</h2>
         <MetricChart metrics={data.metrics} />
       </div>

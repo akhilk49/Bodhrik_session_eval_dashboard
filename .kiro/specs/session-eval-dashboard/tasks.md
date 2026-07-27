@@ -203,7 +203,7 @@ Incremental implementation of a Next.js 14 (App Router) + TypeScript session eva
     - Back link navigates to `/dashboard`
     - _Requirements: 7.4, 7.5, 7.6, 7.7, 6.4, 9.9_
 
-- [ ] 9. Add responsive layout pass
+- [x] 9. Add responsive layout pass
   - Apply Tailwind responsive classes to `app/dashboard/page.tsx` and `SessionCard` so the list renders as stacked cards below 640px and as a wider layout above
   - Apply Tailwind responsive classes to `SessionFilters` so controls stack vertically below 640px
   - Verify no horizontal overflow at any viewport width (use `overflow-x-hidden` on the root if needed)

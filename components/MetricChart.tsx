@@ -19,7 +19,7 @@ interface MetricChartProps {
 export default function MetricChart({ metrics }: MetricChartProps) {
   return (
     <ResponsiveContainer width="100%" height={300}>
-      <LineChart data={metrics} margin={{ top: 5, right: 20, left: 0, bottom: 5 }}>
+      <LineChart data={metrics} margin={{ top: 5, right: 10, left: -10, bottom: 5 }}>
         <CartesianGrid strokeDasharray="3 3" />
         <XAxis
           dataKey="t"
