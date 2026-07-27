@@ -166,28 +166,28 @@ Incremental implementation of a Next.js 14 (App Router) + TypeScript session eva
     - Render `<SessionFilters />` via `@testing-library/react` with arbitrary `fc.array(sessionArb, { minLength: 1 })`; extract distinct student values and assert the `<select>` contains exactly that set — no more, no fewer
     - Tag: `// Feature: session-eval-dashboard, Property 8: filter dropdown population`
 
-- [ ] 7. Checkpoint — Ensure all tests pass
+- [x] 7. Checkpoint — Ensure all tests pass
   - Ensure all tests pass, ask the user if questions arise.
 
-- [ ] 8. Build page routes and wire everything together
-  - [ ] 8.1 Implement root layout in `app/layout.tsx`
+- [x] 8. Build page routes and wire everything together
+  - [x] 8.1 Implement root layout in `app/layout.tsx`
     - Set global font and Tailwind base styles; wrap `children`
     - _Requirements: 10.3_
 
-  - [ ] 8.2 Implement login page in `app/login/page.tsx`
+  - [x] 8.2 Implement login page in `app/login/page.tsx`
     - Client Component with controlled username/password inputs and submit button
     - On submit: call `POST /api/auth/login`; on success redirect to `/dashboard`; on failure show visible error message below the form
     - Disable submit button and show loading indicator while request is in flight
     - _Requirements: 6.1, 6.2, 6.3, 6.4_
 
-  - [ ] 8.3 Implement session list page in `app/dashboard/page.tsx`
+  - [x] 8.3 Implement session list page in `app/dashboard/page.tsx`
     - Client Component; read `searchParams` for filter state
     - Call `useSessions(params)` and derive `students` list from returned data
     - Render `<SessionFilters />` wired to `router.replace` on change (URL as single source of truth)
     - Render `<SessionListSkeleton />` while loading, `<ErrorState />` on error, empty-state with "Clear filters" button when `data.length === 0`, or list of `<SessionCard />` when data is present
     - _Requirements: 7.1, 7.5, 7.6, 7.7, 8.1, 8.2, 8.3, 8.4, 8.5, 8.6, 8.7, 10.1, 10.2, 11.3_
 
-  - [ ] 8.4 Implement session detail page in `app/dashboard/[sessionId]/page.tsx`
+  - [x] 8.4 Implement session detail page in `app/dashboard/[sessionId]/page.tsx`
     - Client Component; extract `sessionId` from route params
     - Call `useSession(sessionId)`; render `<SessionDetailSkeleton />` while loading, `<ErrorState />` on error, or full detail view with page header and `<MetricChart />`
     - Page header displays student name, human-readable date, and duration in minutes
